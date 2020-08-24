@@ -1,0 +1,60 @@
+
+{
+	"tabData":[
+		{"tabName":"Tab1", "tabText":[{"text":"Tab1 selected"}, {"text":"Random Text1"}, {"text":"Random Text2"}]},
+		{"tabName":"Tab2", "tabText":[{"text":"Tab2 selected"}, {"text":"Random Text1"}, {"text":"Random Text2"}]},
+		{"tabName":"Tab3", "tabText":[{"text":"Tab3 selected"}, {"text":"Random Text1"}, {"text":"Random Text2"}]}
+	],
+
+	"dropDownData":[
+		"DropDown1", "DropDown2", "DropDown3", "DropDown4"
+	],
+
+	"toolBarData":[
+			{"id":1, "textLabel1":"Sample Event1", "textLabel2":"Sample Key Figure1"},
+		 	{"id":2, "textLabel1":"Sample Event2", "textLabel2":"Sample Key Figure2"},
+		 	{"id":3, "textLabel1":"Sample Event3", "textLabel2":"Sample Key Figure3"},
+		 	{"id":4, "textLabel1":"Sample Event4", "textLabel2":"Sample Key Figure4"},
+		 	{"id":5, "textLabel1":"Sample Event5", "textLabel2":"Sample Key Figure5"},
+		 	{"id":6, "textLabel1":"Sample Event6", "textLabel2":"Sample Key Figure6"},
+		 	{"id":7, "textLabel1":"Sample Event7", "textLabel2":"Sample Key Figure7"},
+		 	{"id":8, "textLabel1":"Sample Event8", "textLabel2":"Sample Key Figure8"},
+		 	{"id":9, "textLabel1":"Sample Event9", "textLabel2":"Sample Key Figure9"},
+		 	{"id":10, "textLabel1":"Sample Event10", "textLabel2":"Sample Key Figure10"},
+		 	{"id":11, "textLabel1":"Sample Event11", "textLabel2":"Sample Key Figure11"},
+		 	{"id":12, "textLabel1":"Sample Event12", "textLabel2":"Sample Key Figure12"},
+		 	{"id":13, "textLabel1":"Sample Event13", "textLabel2":"Sample Key Figure13"},
+		 	{"id":14, "textLabel1":"Sample Event14", "textLabel2":"Sample Key Figure14"},
+		 	{"id":15, "textLabel1":"Sample Event15", "textLabel2":"Sample Key Figure15"},
+		 	{"id":16, "textLabel1":"Sample Event16", "textLabel2":"Sample Key Figure16"},
+		 	{"id":17, "textLabel1":"Sample Event17", "textLabel2":"Sample Key Figure17"},
+		 	{"id":18, "textLabel1":"Sample Event18", "textLabel2":"Sample Key Figure18"},
+		 	{"id":19, "textLabel1":"Sample Event19", "textLabel2":"Sample Key Figure19"},
+		 	{"id":20, "textLabel1":"Sample Event20", "textLabel2":"Sample Key Figure20"},
+		 	{"id":21, "textLabel1":"Sample Event21", "textLabel2":"Sample Key Figure21"},
+		 	{"id":22, "textLabel1":"Sample Event22", "textLabel2":"Sample Key Figure22"},
+		 	{"id":23, "textLabel1":"Sample Event23", "textLabel2":"Sample Key Figure23"}
+
+	],
+
+	"toolBarLabels":["status","share","filter","calendar"],
+
+	"chartData":[
+		{
+					  "xAxis": {
+					    "type": "category",
+					    "data": ["Mon","Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+					  },
+					  "yAxis": {
+					    "type": "value"
+					  },
+					  "series": [
+					    {
+					      "data": [820, 932, 901, 934, 1290, 1330, 1320],
+					      "type": "line"
+					    }
+					  ]
+	    }
+]
+
+}

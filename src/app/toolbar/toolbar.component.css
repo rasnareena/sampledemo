@@ -1,0 +1,90 @@
+.bottomline{
+	border-bottom:1px solid #d1d1d2;
+}
+
+.topline{
+	border-top:1px solid #d1d1d2;
+}
+
+.v1{
+	border-right:1px solid #d1d1d2;
+	height:100%;
+}
+
+.arrowbutton{
+	border: none;
+    background: none;
+}
+
+.fontBold{
+	font-weight: bold;
+	font-size: 1.5em;
+
+}
+
+.fontItalic{
+	font-style:italic;
+}
+
+.bgColor{
+	background-color: #fff;
+}
+
+.rowStyle{
+	 width: 100%; 
+	 padding: 10px 0px 10px 0px;  
+	 margin-left: 0px;
+}
+
+.column1Style{
+	width: 150px; 
+	padding: 10px 15px 0px 15px;
+}
+
+.arrowStyle{
+	color:#6f7071; 
+	cursor: pointer;
+}
+
+.column3Style{
+	padding-left: 150px; 
+	padding-top: 10px;
+
+}
+
+.toolBarLabelStyle{
+	text-align: center; 
+	padding: 0px 10px 0px 10px;
+}
+
+.activeIconStyle{
+	color:#16a2d8;     
+	cursor: pointer;
+}
+
+.rountIconStyle{
+	color:#16a2d8; 
+	font-size: 30px;    
+	 cursor: pointer;
+}
+.whiteIconStyle{
+	color:#ffffff; 
+	margin-left: -22px;
+    margin-bottom: 0px;
+    margin-top: 12px;     
+    cursor: pointer;
+}
+
+.inactiveIconStyle{
+	color:#d1d1d2;    
+	 cursor: pointer;
+}
+
+.normalIconStyle{
+	color:#6f7071;     
+	cursor: pointer;
+}
+
+.displayFlex{
+	display:flex;
+}

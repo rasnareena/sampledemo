@@ -1,0 +1,38 @@
+<div class="row bgColor rowStyle" >
+	<div class="col-3 col-s-3 ">
+		<tabset #tabset id="tabset" type="pills">
+		  <tab  customClass="customClass"  >  
+		  	<ng-template tabHeading>
+                <a class="routing_link" routerLink="/tab1" >{{this.appService.tabData[0].tabName}}</a>
+            </ng-template>
+        </tab>
+		  <tab  customClass="customClass"  >
+		  	<ng-template tabHeading>
+                <a class="routing_link" routerLink="/tab2">{{this.appService.tabData[1].tabName}}</a>
+            </ng-template>
+		  </tab>
+		  <tab  customClass="customClass"  >
+		  	<ng-template tabHeading>
+                <a class="routing_link" routerLink="/tab3">{{this.appService.tabData[2].tabName}}</a>
+            </ng-template>
+		  </tab>
+		  
+		</tabset>
+	</div>
+	<div class="col-6 col-s-9">
+		
+	</div>
+	<div class="col-3 col-s-3 column3Style" >
+		 <select  style="border:none">
+		    <option >Select data</option>
+		   
+		    <option *ngFor="let data of dropDownData">{{data}}</option>
+		 </select>
+	</div>
+</div>
+
+<!--ToolBar -->
+<app-toolbar></app-toolbar>
+
+<!--Route tabs content -->
+<router-outlet  ></router-outlet>

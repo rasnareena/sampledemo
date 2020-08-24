@@ -1,0 +1,7 @@
+
+	<ul>
+		<li *ngFor="let selectedTab of this.appService.tabData[2].tabText">{{selectedTab.text}}</li>
+	</ul>
+
+	<button type="button" class="btn btn-primary buttonMarginLeft" (click)="gotoTab()" >Route to Tab1</button>
+

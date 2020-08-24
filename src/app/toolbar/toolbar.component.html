@@ -1,0 +1,59 @@
+<div class="row bottomline topline bgColor rowStyle" >
+	<div class="col-3 col-s-3 ">
+		<div class="v1 column1Style" >
+			<button class="arrowbutton" (click)="decrementData()"><fa-icon [icon]="faArrowLeftIcon" class="arrowStyle" ></fa-icon></button>
+				<span>{{count}}</span>
+				<span>/</span>
+				<span>23</span>
+			<button class="arrowbutton" (click)="incrementData()"><fa-icon [icon]="faArrowRightIcon" class="arrowStyle" ></fa-icon></button>
+		</div>
+	</div>
+	<div class="col-6 col-s-9">
+		<div>
+			<div class="fontBold">{{label1}}</div>
+			<div class="fontItalic">{{label2}}</div>
+		</div>
+	</div>
+	<div class="col-3 col-s-3 column3Style" >
+
+		<div class="displayFlex">
+			<!--Status Icon -->
+			<div s class="v1 toolBarLabelStyle">
+				<div>{{toolBarLabels[0]}}</div>
+				<fa-icon [icon]="faHeartbeatIcon" (click)="toggleHeart('active')" *ngIf="isNormalHeart" class="normalIconStyle"></fa-icon>
+				<fa-icon [icon]="faHeartbeatIcon" (click)="toggleHeart('round')" *ngIf="isActiveHeart" class="activeIconStyle"></fa-icon>
+				<div style="display: flex;">
+					<fa-icon [icon]="faCircleIcon" (click)="toggleHeart('inactive')" *ngIf="isRoundHeart" class="rountIconStyle"></fa-icon>
+					<fa-icon [icon]="faHeartbeatIcon" (click)="toggleHeart('inactive')" *ngIf="isRoundHeart" class="whiteIconStyle"></fa-icon>
+				</div>
+				<fa-icon [icon]="faHeartbeatIcon" (click)="toggleHeart('normal')" *ngIf="isInActiveHeart" class="inactiveIconStyle"></fa-icon>
+			</div>
+
+			<!--Share Icon -->
+			<div  class="v1 toolBarLabelStyle">
+				<div>{{toolBarLabels[1]}}</div>
+				<fa-icon [icon]="faShareAltIcon" (click)="toggleShare('active')" *ngIf="isNormalShare" class="normalIconStyle"></fa-icon>
+				<fa-icon [icon]="faShareAltIcon"  (click)="toggleShare('round')" *ngIf="isActiveShare" class="activeIconStyle"></fa-icon>
+				<div style="display: flex;">
+					<fa-icon [icon]="faCircleIcon" (click)="toggleShare('inactive')" *ngIf="isRoundShare"  class="rountIconStyle"></fa-icon>
+					<fa-icon [icon]="faShareAltIcon"  (click)="toggleShare('inactive')" *ngIf="isRoundShare" class="whiteIconStyle"></fa-icon>
+				</div>
+				<fa-icon [icon]="faShareAltIcon"  (click)="toggleShare('normal')" *ngIf="isInActiveShare" class="inactiveIconStyle"></fa-icon>
+			</div>
+
+			<!--Filter Icon -->
+			<div class=" toolBarLabelStyle">
+				<div>{{toolBarLabels[2]}}</div>
+				<fa-icon [icon]="faFilterIcon" (click)="toggleFilter('active')" *ngIf="isNormalFilter"  class="normalIconStyle" ></fa-icon>
+				<fa-icon [icon]="faFilterIcon" (click)="toggleFilter('round')" *ngIf="isActiveFilter" class="activeIconStyle"></fa-icon>
+				<div style="display: flex;">
+					<fa-icon [icon]="faCircleIcon" (click)="toggleFilter('inactive')" *ngIf="isRoundFilter" class="rountIconStyle"></fa-icon>
+					<fa-icon [icon]="faFilterIcon" (click)="toggleFilter('inactive')" *ngIf="isRoundFilter" class="whiteIconStyle"></fa-icon>
+				</div>
+				<fa-icon [icon]="faFilterIcon" (click)="toggleFilter('normal')" *ngIf="isInActiveFilter" class="inactiveIconStyle"></fa-icon>
+			</div>
+
+			
+		</div>
+	</div>
+</div>

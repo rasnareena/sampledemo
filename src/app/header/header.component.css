@@ -1,0 +1,30 @@
+.v1{
+	border-right:1px solid #adaeaf;
+	height:100%;
+}
+
+.bottomline{
+	border-bottom:1px solid #adaeaf;
+}
+
+.bgColor{
+	background-color: #fff;
+}
+
+.rowStyle{
+	padding: 10px 0px 10px 0px; 
+	width: 100%; 
+	margin-left: 0px;
+}
+
+.barMenuIconStyle{
+	padding:0px 40px 0px 40px
+}
+
+.column3Style{
+	padding-left: 200px;
+}
+
+.iconPadding{
+	padding:10px
+}
